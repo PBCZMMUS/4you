@@ -8,6 +8,19 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+#nav-logo{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(252, 251, 251);
+  padding: 3px;
+  border-radius: 50%;
+}
+#text-logo{
+  font-size: 1.5rem;
+  margin: 0;
+  color: #fadd38;
+}
+
 .navbar-logo h1 {
   font-size: 1.5rem;
   margin: 0;

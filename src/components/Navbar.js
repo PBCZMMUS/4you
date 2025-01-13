@@ -14,7 +14,8 @@ const Navbar = ({ user }) => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <h1>AppLogo</h1>
+        <img id="nav-logo" src="./images/pass.png" alt="plant-icon" />
+        <h1 id='text-logo'>4u</h1>
       </div>
       {user ? (
         <>
