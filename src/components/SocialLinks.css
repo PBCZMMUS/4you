@@ -1,0 +1,36 @@
+.social-links-page {
+  padding: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.social-links-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.social-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-card a {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.social-card a:hover {
+  text-decoration: underline;
+}

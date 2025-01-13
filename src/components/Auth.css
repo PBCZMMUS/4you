@@ -1,0 +1,75 @@
+.auth-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container .input-container {
+  position: relative;
+}
+
+.auth-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.auth-container button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background-color: #45a049;
+}
+
+.auth-container .auth-links {
+  margin-top: 10px;
+}
+
+.auth-container .auth-links a {
+  text-decoration: none;
+  color: #4caf50;
+}
+
+.auth-container .suggestions-list {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 1;
+}
+
+.auth-container .suggestions-list li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.auth-container .suggestions-list li:hover {
+  background-color: #f0f0f0;
+}

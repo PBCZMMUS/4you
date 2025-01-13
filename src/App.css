@@ -1,0 +1,41 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  
+  h1, h2 {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  footer {
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    footer {
+      font-size: 0.9rem;
+    }
+  }

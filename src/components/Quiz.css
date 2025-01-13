@@ -1,0 +1,79 @@
+/* General styles */
+.quiz-app {
+    display: flex;
+    font-family: Arial, sans-serif;
+  }
+  
+  .quiz-main {
+    margin-left: 240px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 240px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    transition: width 0.3s;
+  }
+  
+  .course-list .course-item {
+    margin: 20px 0;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Quiz Container */
+  .quiz-container {
+    margin-top: 20px;
+  }
+  
+  .quiz-question {
+    margin-bottom: 15px;
+  }
+  
+  .quiz-question label {
+    display: block;
+  }
+  
+  input[type="text"], input[type="email"] {
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Result Container */
+  .result-container {
+    margin-top: 20px;
+  }
+  
+  .result-container input {
+    margin: 10px 0;
+  }
+  
+  /* Toggle Sidebar button */
+  .toggle-btn {
+    background-color: #28a745;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sidebar .course-item h3 {
+    margin: 10px 0;
+  }
+  
+  .sidebar .course-item p {
+    color: #555;
+  }
